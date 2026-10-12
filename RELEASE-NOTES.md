@@ -17,3 +17,5 @@ be inspected. Verify downloaded files against SHA256SUMS.txt if desired.
 Native-library source archives and build instructions are provided separately
 as Sidekick-third-party-sources-0.16.2-preview.2.tar.gz. These are third-party
 components, not Sidekick's original project source.
+
+[Installation and model setup guide](https://github.com/retvest/sidekick-downloads/blob/main/INSTALLING.md) · [Preview licence](https://github.com/retvest/sidekick-downloads/blob/main/LICENSE) · [Privacy](https://retvest.com/sidekick-privacy/)
