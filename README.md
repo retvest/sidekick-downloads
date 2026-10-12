@@ -11,7 +11,8 @@ Application packages can be inspected; packaging is not a copy-protection guaran
 
 ## 0.16.2-preview.2
 
-Free unsigned experimental previews for Apple Silicon Mac, Windows x64 and Linux x64.
+Free experimental previews for Apple Silicon Mac, Windows x64 and Linux x64.
+Linux has a detached GPG signature; Mac and Windows lack native publisher signing.
 This packaging revision is **UNVERIFIED**. It updates licences, attribution and
 release metadata around the prior preview implementation. It is not a stable release.
 
@@ -31,6 +32,8 @@ No Sidekick subscription or hosted inference is included. Automatic updates
 are disabled for these previews. Back up important work and review AI actions.
 
 [Installation and model setup guide](INSTALLING.md)
+
+[Download signatures, public key and verification instructions](SIGNING.md)
 
 ## Licences and source information
 

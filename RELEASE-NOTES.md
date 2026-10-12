@@ -1,6 +1,6 @@
 # Sidekick 0.16.2-preview.2
 
-Free, unsigned experimental downloads. This packaging revision is UNVERIFIED;
+Free experimental downloads. This packaging revision is UNVERIFIED;
 Windows has not had native Windows installation or runtime acceptance. See the
 README for platform limits and setup. Mac is Apple Silicon only; Linux is x64
 and requires AVX2. No Intel Mac, Windows ARM or Linux ARM build is included.
@@ -13,6 +13,11 @@ No paid signing, paid build service, subscription or automatic updater was added
 Read LICENSE before use. Third-party licences retain precedence for their
 components. The development repository remains private; installers can still
 be inspected. Verify downloaded files against SHA256SUMS.txt if desired.
+
+Added on 12 October 2026: a detached GPG signature for the Linux AppImage and
+for SHA256SUMS.txt, plus the release public key. Installer bytes are unchanged.
+Mac and Windows still lack native publisher signing. See the
+[signature verification guide](https://github.com/retvest/sidekick-downloads/blob/main/SIGNING.md).
 
 Native-library source archives and build instructions are provided separately
 as Sidekick-third-party-sources-0.16.2-preview.2.tar.gz. These are third-party

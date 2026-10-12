@@ -1,8 +1,9 @@
 # Installing the Sidekick preview
 
 Download only from https://retvest.com/sidekick/#downloads or this repository's
-release page. Version 0.16.2-preview.2 is unsigned experimental software; its
-runtime is unverified. Keep backups and review the platform limitations first.
+release page. Version 0.16.2-preview.2 is experimental software; its runtime is
+unverified. Linux has a detached GPG signature; Windows and Mac lack native
+publisher signing. Keep backups and review the platform limitations first.
 
 ## Mac — Apple Silicon
 
@@ -25,7 +26,8 @@ or other system-wide protection to install it.
 
 ## Linux — x64 with AVX2
 
-Download the AppImage, then make that downloaded file executable:
+Download the AppImage and its separate `.asc` signature. Follow the
+[signature verification instructions](SIGNING.md) before making it executable:
 
 ```sh
 chmod u+x Sidekick-0.16.2-preview.2-linux-x86_64.AppImage
@@ -68,4 +70,6 @@ Contact: cliffordprince257@gmail.com.
 SHA256SUMS.txt accompanies each release. You can compare a file's SHA-256 hash
 using `shasum -a 256` on Mac, `sha256sum` on Linux or PowerShell `Get-FileHash`
 on Windows. Matching hashes show that the file matches the published checksum;
-they are not developer signing or a security certification.
+they alone do not authenticate the publisher or certify security. The manifest
+now has a separate GPG signature: see [SIGNING.md](SIGNING.md). This does not
+replace Windows Authenticode or Mac Developer ID signing.
