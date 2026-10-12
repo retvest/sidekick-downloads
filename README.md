@@ -30,6 +30,8 @@ OCR assets are included. Optional cloud providers can charge separately.
 No Sidekick subscription or hosted inference is included. Automatic updates
 are disabled for these previews. Back up important work and review AI actions.
 
+[Installation and model setup guide](INSTALLING.md)
+
 ## Licences and source information
 
 Retvest's original material is supplied under the [Sidekick Preview Licence](LICENSE).
