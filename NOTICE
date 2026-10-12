@@ -1,0 +1,16 @@
+Sidekick by Retvest
+
+Retvest's original material in this preview is supplied under the Sidekick
+Preview Licence in LICENSE. The implementation repository is private.
+
+Third-party dependencies, models and runtimes retain their original licences
+and attribution. See assets/THIRD-PARTY-NOTICES.txt and assets/licenses/.
+These components are not relicensed under the Sidekick Preview Licence.
+
+Previously distributed GPL-3.0 copies keep their original rights. The historical
+licence remains in the private source history; changing repository visibility
+does not revoke rights already granted to recipients.
+
+Distribution packaging is not encryption: installed application resources can
+be inspected. Keeping the development repository private is not a technical
+guarantee that application code cannot be recovered.

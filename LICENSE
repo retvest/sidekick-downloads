@@ -1,0 +1,43 @@
+Sidekick Preview Licence
+Effective for version 0.16.2-preview.2 and later versions supplied with these terms.
+
+Retvest is an independent founder-run project, not an incorporated company.
+Contact: cliffordprince257@gmail.com
+
+1. Permission to use
+You may download, install, run and keep backup copies of the official Sidekick
+preview free of charge, for personal or internal business use. No subscription
+or payment to Retvest is required for this preview. Optional third-party model
+providers and services may charge separately under their own terms.
+
+2. Retvest's original material
+This permission covers Retvest's original Sidekick material only. No licence
+is granted to publish the private development repository, redistribute modified
+Sidekick applications, sell copies, or use Retvest's names or marks to imply
+endorsement. You may share links to the official downloads. Other rights in
+Retvest's original material are reserved, subject to applicable law.
+
+3. Open-source components and earlier copies
+Third-party software, models, runtimes and their notices retain their own
+licences. Those licences control their components and take precedence over
+any conflicting restriction here. You may exercise all rights they grant,
+including copying, modification, redistribution and replacing LGPL libraries.
+Reverse engineering for debugging modifications to LGPL components is allowed.
+See the bundled assets/THIRD-PARTY-NOTICES.txt, assets/licenses/ and the
+third-party source information supplied with the download.
+Rights in copies previously obtained under GNU GPL version 3 are unaffected.
+These terms do not revoke or replace the licence of those earlier copies.
+
+4. Preview status
+This is experimental software, supplied as available. These installers are
+unsigned; the Mac package is not notarized. Windows runtime acceptance and
+real-device acceptance remain incomplete. AI output can be incorrect. Review
+proposed actions, use accounts and data you are authorised to access, and keep
+backups. No support response time or continued availability is promised.
+
+5. Warranty and liability
+To the extent permitted by applicable law, the software is supplied without
+warranties, including implied warranties of merchantability, fitness for a
+particular purpose and non-infringement. To that extent, the provider is not
+liable for losses arising from use of the preview. Nothing here excludes
+liability that cannot lawfully be excluded or limits mandatory consumer rights.
