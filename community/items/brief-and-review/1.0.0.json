@@ -1,0 +1,39 @@
+{
+  "format": "sidekick-community-item-v1",
+  "id": "brief-and-review",
+  "version": "1.0.0",
+  "kind": "workflow",
+  "author": "Retvest",
+  "license": "MIT",
+  "payload": {
+    "format": "sidekick-workflow-v1",
+    "kind": "flow",
+    "name": "Brief and review",
+    "description": "Draft a briefing, then review its assumptions in a second model step.",
+    "nodes": [
+      {
+        "id": "draft",
+        "name": "Draft briefing",
+        "type": "agent",
+        "next": "review",
+        "template": "Write a concise briefing from the following user-provided material. Do not invent sources or claims. Identify missing information. Material:\n{{input}}",
+        "tools": {
+          "version": 1,
+          "tools": []
+        }
+      },
+      {
+        "id": "review",
+        "name": "Review assumptions",
+        "type": "agent",
+        "next": null,
+        "template": "Review this draft for unsupported claims, unclear reasoning and missing assumptions. Return a revised brief followed by a short list of unresolved questions. Do not invent source evidence. Draft:\n{{steps.draft}}",
+        "tools": {
+          "version": 1,
+          "tools": []
+        }
+      }
+    ]
+  },
+  "licenseText": "MIT License\n\nCopyright (c) 2026 Retvest contributors\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n"
+}

@@ -35,6 +35,9 @@ are disabled for these previews. Back up important work and review AI actions.
 
 [Download signatures, public key and verification instructions](SIGNING.md)
 
+[Community skills and workflow catalogue](community/README.md) — versioned
+examples and contribution instructions. App integration is in unreleased source.
+
 ## Licences and source information
 
 Retvest's original material is supplied under the [Sidekick Preview Licence](LICENSE).

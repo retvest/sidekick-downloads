@@ -1,0 +1,42 @@
+{
+  "format": "sidekick-community-catalogue-v1",
+  "updatedAt": "2026-10-15",
+  "items": [
+    {
+      "id": "research-brief",
+      "version": "1.0.0",
+      "kind": "instruction",
+      "name": "Research brief",
+      "description": "Turn a research question into a sourced, concise briefing.",
+      "author": "Retvest",
+      "license": "MIT",
+      "file": "items/research-brief/1.0.0.json",
+      "sha256": "47050c4cc21fd44b4bbca6680dac9dd9c02ba82b2ed1ed6f76709077b5c29ecf",
+      "status": "available"
+    },
+    {
+      "id": "decision-record",
+      "version": "1.0.0",
+      "kind": "instruction",
+      "name": "Decision record",
+      "description": "Write a compact record of a decision and its tradeoffs.",
+      "author": "Retvest",
+      "license": "MIT",
+      "file": "items/decision-record/1.0.0.json",
+      "sha256": "96cf103c463449d1ebf691205d93dec31bcba4fede7fefa3ff1c6125273e343c",
+      "status": "available"
+    },
+    {
+      "id": "brief-and-review",
+      "version": "1.0.0",
+      "kind": "workflow",
+      "name": "Brief and review",
+      "description": "Draft a briefing, then review its assumptions in a second model step.",
+      "author": "Retvest",
+      "license": "MIT",
+      "file": "items/brief-and-review/1.0.0.json",
+      "sha256": "d37417d06fc14d5c12fcaf66304e4278153257d572f46fb90f56120e53c8f3af",
+      "status": "available"
+    }
+  ]
+}

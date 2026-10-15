@@ -1,0 +1,15 @@
+{
+  "format": "sidekick-community-item-v1",
+  "id": "decision-record",
+  "version": "1.0.0",
+  "kind": "instruction",
+  "author": "Retvest",
+  "license": "MIT",
+  "payload": {
+    "format": "sidekick-skill-v1",
+    "name": "Decision record",
+    "description": "Write a compact record of a decision and its tradeoffs.",
+    "instructions": "Help the user record a decision using the information they provide. Capture the question, available options, chosen option, reasons, tradeoffs and unresolved assumptions. Distinguish a proposed choice from an approved decision. Ask for missing essential information instead of inventing an owner or approval. Keep the record short enough to review and retain the sources of consequential claims. Do not publish, contact people or execute actions unless separately requested and permitted."
+  },
+  "licenseText": "MIT License\n\nCopyright (c) 2026 Retvest contributors\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n"
+}
