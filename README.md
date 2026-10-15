@@ -49,5 +49,7 @@ as a separate release asset. The installers also include dependency notices.
 
 [Privacy](https://retvest.com/sidekick-privacy/) · [Security](https://retvest.com/security/) · [Support](SUPPORT.md)
 
-Retvest is an independent founder-run project, not an incorporated company.
+Retvest deploys AI on your organisation’s own servers or cloud. [Explore Retvest Deploy](https://retvest.com/products/deploy/).
+
+Retvest is operated by its founder and is not an incorporated company.
 Contact: cliffordprince257@gmail.com
